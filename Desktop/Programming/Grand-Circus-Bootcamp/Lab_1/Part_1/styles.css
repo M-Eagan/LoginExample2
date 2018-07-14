@@ -1,0 +1,132 @@
+*{
+  font: garamond;
+  color: white;
+  background-color: grey;
+}
+
+p {
+  font-family: 'Sunflower', sans-serif;
+  display: flex;
+  justify-content: center;
+  padding: 5%;
+  font-size: 135%;
+  text-align: center;
+}
+
+
+a:hover {
+  color: black;
+  font-weight: bold;
+}
+
+.navigation {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  position: fixed;
+  font-family: 'Sunflower', sans-serif;
+  border: 2px solid white;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  float: center;
+  width: 100%;
+  font-size: 150%;
+  top: 0px;
+}
+
+.listNavigation {
+  padding 10%;
+  text-align: center;
+  margin: 15px;
+}
+
+.contactForm {
+  margin: auto;
+  width: 75%;
+  border: 2px solid white;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Sunflower', sans-serif;
+  padding: 20px;
+  justify-content: center;
+  font-size: 155%;
+}
+
+input {
+  background-color: white;
+  color: black;
+  font-family: 'Sunflower', sans-serif;
+  width: 80%;
+  padding: 3%;
+  margin: 5%;
+  font-size: 100%;
+  justify-content: center;
+}
+
+
+h1 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 400%;
+  font-family: 'Raleway', sans-serif;
+  top: 0;
+  font-stretch: extra-expanded;
+  padding-top: 20%;
+}
+
+h2 {
+  font-family: 'Sunflower', sans-serif;
+  font-size: 300%;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: underline;
+}
+
+.portfolioImages {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 15px;
+  box-shadow: 10px 5px lightgrey;
+}
+
+figcaption {
+  text-align: center;
+  font-family: 'Sunflower', sans-serif;
+  font-size: 250%;
+  padding-bottom: 15%;
+}
+
+.aboutMeParagraph {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+ul {
+  font-family: 'Sunflower', sans-serif;
+  border: 2px white solid;
+  text-align: center;
+  list-style-position: inside;
+  font-size: 130%;
+}
+
+ol {
+  font-family: 'Sunflower', sans-serif;
+  border: 2px white solid;
+  text-align: center;
+  list-style-position: inside;
+  font-size: 130%;
+}
+/*
+*/
